@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const file=document.querySelector('input[type=file]');if(file){file.addEventListener('change',()=>{const label=document.querySelector('.upload-zone b');if(label&&file.files[0])label.textContent=file.files[0].name+' · '+(file.files[0].size/1024/1024).toFixed(2)+' MB';});}});

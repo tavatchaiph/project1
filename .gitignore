@@ -1,0 +1,9 @@
+# Ignore everything in htdocs
+/*
+
+# Keep .gitignore
+!/.gitignore
+
+# Keep only SKRU OBE QA project
+!/skru_obe_auditor/
+!/skru_obe_auditor/**
